@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.IO;
 using System.Linq;
@@ -19,8 +20,9 @@ namespace BM
         private void GenerateDownloadLinks()
 
         {
-
-            string path = @"D:\downloads"; 
+            var path = ConfigurationManager.AppSettings["DownloadLocation"];
+            if (string.IsNullOrEmpty(path))
+                path = @"D:\downloads";
             if (Directory.Exists(path))
 
             {
