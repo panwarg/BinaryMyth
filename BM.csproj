@@ -77,6 +77,7 @@
     <Content Include="css\styles.css" />
     <Content Include="Global.asax" />
     <Content Include="home.htm" />
+    <Content Include="index.html" />
     <Content Include="images\#logo.png" />
     <Content Include="images\animated-number\bg.jpg" />
     <Content Include="images\cta2\cta2-bg.jpg" />
