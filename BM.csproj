@@ -75,77 +75,247 @@
     <Content Include="css\owl.transitions.css" />
     <Content Include="css\prettyPhoto.css" />
     <Content Include="css\styles.css" />
+    <Content Include="fonts\fontawesome-webfont.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Global.asax" />
     <Content Include="home.htm" />
     <Content Include="index.html" />
-    <Content Include="images\#logo.png" />
-    <Content Include="images\animated-number\bg.jpg" />
-    <Content Include="images\cta2\cta2-bg.jpg" />
-    <Content Include="images\download.png" />
-    <Content Include="images\ico\apple-touch-icon-114-precomposed.png" />
-    <Content Include="images\ico\apple-touch-icon-144-precomposed.png" />
-    <Content Include="images\ico\apple-touch-icon-57-precomposed.png" />
-    <Content Include="images\ico\apple-touch-icon-72-precomposed.png" />
-    <Content Include="images\ico\favicon.png" />
-    <Content Include="images\logo.png" />
-    <Content Include="images\main-feature.png" />
-    <Content Include="images\portfolio\01.jpg" />
-    <Content Include="images\portfolio\02.jpg" />
-    <Content Include="images\portfolio\03.jpg" />
-    <Content Include="images\portfolio\04.jpg" />
-    <Content Include="images\portfolio\05.jpg" />
-    <Content Include="images\portfolio\06.jpg" />
-    <Content Include="images\portfolio\07.jpg" />
-    <Content Include="images\portfolio\08.jpg" />
-    <Content Include="images\prettyPhoto\dark_rounded\btnNext.png" />
-    <Content Include="images\prettyPhoto\dark_rounded\btnPrevious.png" />
-    <Content Include="images\prettyPhoto\dark_rounded\contentPattern.png" />
-    <Content Include="images\prettyPhoto\dark_rounded\default_thumbnail.gif" />
-    <Content Include="images\prettyPhoto\dark_rounded\loader.gif" />
-    <Content Include="images\prettyPhoto\dark_rounded\sprite.png" />
-    <Content Include="images\prettyPhoto\dark_square\btnNext.png" />
-    <Content Include="images\prettyPhoto\dark_square\btnPrevious.png" />
-    <Content Include="images\prettyPhoto\dark_square\contentPattern.png" />
-    <Content Include="images\prettyPhoto\dark_square\default_thumbnail.gif" />
-    <Content Include="images\prettyPhoto\dark_square\loader.gif" />
-    <Content Include="images\prettyPhoto\dark_square\sprite.png" />
-    <Content Include="images\prettyPhoto\default\default_thumb.png" />
-    <Content Include="images\prettyPhoto\default\loader.gif" />
-    <Content Include="images\prettyPhoto\default\sprite.png" />
-    <Content Include="images\prettyPhoto\default\sprite_next.png" />
-    <Content Include="images\prettyPhoto\default\sprite_prev.png" />
-    <Content Include="images\prettyPhoto\default\sprite_x.png" />
-    <Content Include="images\prettyPhoto\default\sprite_y.png" />
-    <Content Include="images\prettyPhoto\facebook\btnNext.png" />
-    <Content Include="images\prettyPhoto\facebook\btnPrevious.png" />
-    <Content Include="images\prettyPhoto\facebook\contentPatternBottom.png" />
-    <Content Include="images\prettyPhoto\facebook\contentPatternLeft.png" />
-    <Content Include="images\prettyPhoto\facebook\contentPatternRight.png" />
-    <Content Include="images\prettyPhoto\facebook\contentPatternTop.png" />
-    <Content Include="images\prettyPhoto\facebook\default_thumbnail.gif" />
-    <Content Include="images\prettyPhoto\facebook\loader.gif" />
-    <Content Include="images\prettyPhoto\facebook\sprite.png" />
-    <Content Include="images\prettyPhoto\light_rounded\btnNext.png" />
-    <Content Include="images\prettyPhoto\light_rounded\btnPrevious.png" />
-    <Content Include="images\prettyPhoto\light_rounded\default_thumbnail.gif" />
-    <Content Include="images\prettyPhoto\light_rounded\loader.gif" />
-    <Content Include="images\prettyPhoto\light_rounded\sprite.png" />
-    <Content Include="images\prettyPhoto\light_square\btnNext.png" />
-    <Content Include="images\prettyPhoto\light_square\btnPrevious.png" />
-    <Content Include="images\prettyPhoto\light_square\default_thumbnail.gif" />
-    <Content Include="images\prettyPhoto\light_square\loader.gif" />
-    <Content Include="images\prettyPhoto\light_square\sprite.png" />
-    <Content Include="images\slider\bg1.jpg" />
-    <Content Include="images\slider\bg2.jpg" />
+    <Content Include="images\#logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\animated-number\bg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\cta2\cta2-bg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\download.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\ico\apple-touch-icon-114-precomposed.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\ico\apple-touch-icon-144-precomposed.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\ico\apple-touch-icon-57-precomposed.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\ico\apple-touch-icon-72-precomposed.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\ico\favicon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\main-feature.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\portfolio\01.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\portfolio\02.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\portfolio\03.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\portfolio\04.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\portfolio\05.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\portfolio\06.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\portfolio\07.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\portfolio\08.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\dark_rounded\btnNext.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\dark_rounded\btnPrevious.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\dark_rounded\contentPattern.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\dark_rounded\default_thumbnail.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\dark_rounded\loader.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\dark_rounded\sprite.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\dark_square\btnNext.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\dark_square\btnPrevious.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\dark_square\contentPattern.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\dark_square\default_thumbnail.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\dark_square\loader.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\dark_square\sprite.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\default\default_thumb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\default\loader.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\default\sprite.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\default\sprite_next.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\default\sprite_prev.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\default\sprite_x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\default\sprite_y.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\facebook\btnNext.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\facebook\btnPrevious.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\facebook\contentPatternBottom.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\facebook\contentPatternLeft.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\facebook\contentPatternRight.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\facebook\contentPatternTop.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\facebook\default_thumbnail.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\facebook\loader.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\facebook\sprite.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\light_rounded\btnNext.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\light_rounded\btnPrevious.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\light_rounded\default_thumbnail.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\light_rounded\loader.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\light_rounded\sprite.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\light_square\btnNext.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\light_square\btnPrevious.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\light_square\default_thumbnail.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\light_square\loader.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\prettyPhoto\light_square\sprite.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\slider\bg1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\slider\bg2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="images\team\01.jpg" />
     <Content Include="images\team\02.jpg" />
     <Content Include="images\team\03.jpg" />
     <Content Include="images\team\04.jpg" />
-    <Content Include="images\testimonial\01.jpg" />
-    <Content Include="images\testimonial\02.jpg" />
-    <Content Include="images\testimonial\bg.jpg" />
-    <Content Include="images\whatsapp.png" />
-    <Content Include="images\work-process\bg.jpg" />
+    <Content Include="images\testimonial\01.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\testimonial\02.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\testimonial\bg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\whatsapp.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\work-process\bg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="js\bootstrap.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="js\html5shiv.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="js\jquery.inview.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="js\jquery.isotope.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="js\jquery.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="js\jquery.prettyPhoto.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="js\main.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="js\mousescroll.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="js\owl.carousel.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="js\respond.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="js\smoothscroll.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="js\wow.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Share.aspx" />
     <Content Include="Upload.aspx" />
     <Content Include="ViewSwitcher.ascx" />
@@ -188,8 +358,30 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\main.less" />
+    <Content Include="fonts\fontawesome-webfont.eot">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\fontawesome-webfont.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\fontawesome-webfont.woff">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\FontAwesome.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.eot">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.woff">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="packages.config" />
     <Content Include="Site.Mobile.Master" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

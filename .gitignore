@@ -9,3 +9,6 @@ obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 /bin
 /packages
 /.vs/BM
+/obj/Debug/BM.csproj.CopyComplete
+/obj/Debug/BM.csproj.FileListAbsolute.txt
+/obj/Release
